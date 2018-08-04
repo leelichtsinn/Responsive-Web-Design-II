@@ -173,6 +173,36 @@ header nav a {
 	margin-top: 10px;
 }
 
+.services-header {
+	border-bottom: 1px solid black;
+	padding: 25px 0;
+}
+
+.services-header .services-header-img {
+	padding-bottom: 25px;
+	width: 100%;
+}
+
+.services-main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	padding: 25px 0;
+}
+
+.services-main .services-text {
+	width: 48%;
+	background: whitesmoke;
+	border: 1px solid black;
+	padding: 15px 2%;
+	margin: 20px 0;
+}
+
+.services-main .services-text h2 {
+	font-size: 2.5rem;
+}
+
 footer {
 	display: flex;
 	justify-content: center;
